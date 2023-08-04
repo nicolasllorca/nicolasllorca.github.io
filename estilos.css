@@ -1,0 +1,84 @@
+h1 { 
+    color: white;
+    height: 20px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: Times;
+  }
+ 
+  2 {
+    color: white 
+  } 
+  
+.content { 
+    height: 10px; 
+    font-size: 24px;
+    font-family: Geneva; 
+  }
+  
+* { 
+    color: orange;
+    text-align: center;
+  }
+
+ 
+body {  /*la imagen de fondo*/
+    background-image: url('https://files.merca20.com/uploads/2017/07/programacion.jpg');
+    background-color: rgba(0, 0, 0, 0.6); 
+    background-blend-mode: overlay; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.izq { 
+    display: flex;
+    justify-content: left; 
+
+} 
+
+.experiencia {
+  display:list-item;
+  justify-content:list-item; 
+  align-items: list-item;
+}
+
+.container {
+  display:inline-flex;
+  
+}
+
+/* Estilos para la sección izquierda (los cuadrados) */
+.left-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+/* Estilos para cada cuadrado */
+.inner-square {
+
+  padding: 1px;
+  display: center; /* Agregamos flexbox */
+  flex-direction: column; /* Alinear el contenido verticalmente */
+  justify-content: center; /* Alinear el contenido horizontalmente */
+
+}
+
+.inner-square p {
+  font-weight: bold;
+}
+
+/* Estilos para la sección derecha (la imagen) */
+.right-section {
+  flex: 1;
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para la imagen */
+.foto {
+  max-width: 70%;
+  display: left;
+}

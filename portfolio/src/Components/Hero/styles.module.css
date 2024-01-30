@@ -1,0 +1,39 @@
+
+.herocontainer {
+    height: 400px;
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: rgb(68, 65, 65);
+    
+    .fotoMia {
+        
+        border-radius: 70px;    
+        margin: 0 0 15px 0;
+    }
+  
+    .presentation { 
+        display: block;
+        justify-content: space-around;
+        margin: 0 auto;
+        max-width: 500px;
+        width: 100%;
+        color: white;
+        border-radius: 10px;    
+        
+    }
+
+    .sections {
+        color: orange;
+        padding: 20px 0 0 0;
+        justify-content: space-around;
+        display: inline-flex;
+        gap: 110px; /* Espacio entre elementos */
+        text-decoration: underline;
+    }
+
+
+
+}

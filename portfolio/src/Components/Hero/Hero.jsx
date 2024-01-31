@@ -16,18 +16,21 @@ function Hero () {
                         <h2>¡Hola! Soy Nicolás Llorca</h2><br></br>
                         <p>
                             Soy un Desarrollador Web de Montevideo, Uruguay.<br></br><br></br>
-                            Mi enfoque se basa en un constante aprendizaje de nuevos conocimientos y creaciones de distintos proyectos.
+                            Estudio <b>Ciencias Económicas</b> y <b>Programación</b> ya que creo que podrían combinar muy bien, estando siempre en un constante aprendizaje de nuevos conocimientos y creaciones de distintos proyectos.<br></br>
                             Debajo podrás ir viendo los distintos proyectos que he ido creando, ¡espero que te parezcan interesantes!
                         </p>
-                </div>
-                
-                <div >
+
+                    <div>
                     <ul className={styles.sections}>
                         <li className={styles.sections} id="Conocimientos"> Conocimientos </li>
                         <li className={styles.sections} id="Proyectos"> Proyectos </li>
                         <li className={styles.sections} id="Contacto"> Contáctame </li>
                     </ul> 
-                </div>  
+                </div>
+
+                </div>
+                
+                  
         </div>        
 
     )

@@ -4,6 +4,8 @@ import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';
 import Hero from '../Components/Hero/Hero';
 import Content from '../Components/Content/Content';
+import SeparatorLine from "../Components/SeparatorLine/SeparatorLine";
+
 
 export const metadata = {
   title: "Nicolás Llorca / Software devoloper",
@@ -13,10 +15,9 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <>
-      <Navbar />
-      <Hero />
+      
       <Content />
-      <Footer />
+      
     </>
   )
 }

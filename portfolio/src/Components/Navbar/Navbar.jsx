@@ -4,7 +4,7 @@ import Link from "next/link"
 
 import Image from "next/image"
 import Logo from "../../../public/Logo3.png"
-
+import SeparatorLine from "../SeparatorLine/SeparatorLine"
 
 
 function Navbar () {
@@ -20,12 +20,19 @@ function Navbar () {
                         </div>
                     </Link>
                 </div>   
-                <div className={styles.navright}>
-                    <Link href="/">Inicio</Link>
-                    <Link href="/">Mis Proyectos</Link>
-                    <Link href="/">Sobre mí</Link>
-                </div>
+                    <div className={styles.navright}>
+                        <div className={styles.boton}>
+                            <Link className={styles.Link} href="/">Inicio</Link>  
+                        </div>
+                    
+                        <div className={styles.boton}>
+                            <Link className={styles.Link} href="/">Sobre mí</Link>
+                        </div>   
+                    </div>
+                    
             </div>
+
+            <SeparatorLine />
         </nav>
 
     )

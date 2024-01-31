@@ -11,24 +11,37 @@ import REACT from "../../../public/logo_react.webp"
 import NEXTJS from "../../../public/logo_nextjs.webp"
 import SQL from "../../../public/logo_sql.png"
 
-import SeparatorLineContent from "../SeparatorLineContent/SeparatorLineContent";
+
+import Proyecto1 from "../../../public/Logo2.png"
+import Proyecto2 from "../../../public/Logo3.png"
+
+import Navbar from "../Navbar/Navbar";
+import Hero from "../Hero/Hero";
+import Footer from "../Footer/Footer";
+import SeparatorLine from "../SeparatorLine/SeparatorLine";
 
 
 
 function Content () {
         return (
+        <main className={styles.main}>
+            <><><><>    
 
-                <><><><SeparatorLineContent /><><div className={styles.titulo}>
+            <Navbar />
+            <Hero />
+
+            <SeparatorLine />
+            <div className={styles.titulo}>
 
                 <h2>Conocimientos</h2>
             </div>
 
-                <div className={styles.conocimientos}>
+                <div className={styles.columnas}>
                     <div className={styles.gallery}>
-                        <h2>Actualmente poseo conocimiento en: </h2>
+                        <h3 className={styles.subt}>Actualmente poseo conocimiento en: </h3>
                         <div className={styles.imageContainer}>
                             <div className={styles.image}>
-                                <Image src={HTML5} height={150} width={150} alt="HTML" />
+                                <Image src={HTML5} height={120} width={120} alt="HTML" />
                                 <div className={styles.overlay}>
                                     <p>
                                         Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para
@@ -37,7 +50,7 @@ function Content () {
                                 </div>
                             </div>
                             <div className={styles.image}>
-                                <Image src={CSS} height={150} width={200} alt="CSS" />
+                                <Image src={CSS} height={120} width={180} alt="CSS" />
                                 <div className={styles.overlay}>
                                     <p>
                                         CSS (Cascading Style Sheets) significan «Hojas de estilo en cascada» es usado para aplicar estilos (colores, formas, márgenes, etc...) a uno o varios documentos de forma automática y masiva.
@@ -45,7 +58,7 @@ function Content () {
                                 </div>
                             </div>
                             <div className={styles.image}>
-                                <Image src={JS} height={150} width={150} alt="JS" />
+                                <Image src={JS} height={120} width={120} alt="JS" />
                                 <div className={styles.overlay}>
                                     <p>
                                         JavaScript es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y más
@@ -53,7 +66,7 @@ function Content () {
                                 </div>
                             </div>
                             <div className={styles.image}>
-                                <Image src={NODE} height={150} width={150} alt="NODEJS" />
+                                <Image src={NODE} height={120} width={120} alt="NODEJS" />
                                 <div className={styles.overlay}>
                                     <p>
                                         Node. js es un entorno de ejecución JavaScript de código abierto y
@@ -65,10 +78,10 @@ function Content () {
                     </div>
 
                     <div className={styles.gallery}>
-                        <h2>A su vez, me encuentro aprendiendo y perfeccionando: </h2>
+                        <h3 className={styles.subt}>A su vez, me encuentro aprendiendo y perfeccionando: </h3>
                         <div className={styles.imageContainer}>
                             <div className={styles.image}>
-                                <Image src={REACT} height={150} width={150} alt="REACT" />
+                                <Image src={REACT} height={120} width={120} alt="REACT" />
                                 <div className={styles.overlay}>
                                     <p>
                                         React se utiliza generalmente para construir la interfaz de usuario (frontend) de las aplicaciones web.
@@ -77,7 +90,7 @@ function Content () {
                                 </div>
                             </div>
                             <div className={styles.image}>
-                                <Image src={NEXTJS} height={150} width={150} alt="NEXTJS" />
+                                <Image src={NEXTJS} height={120} width={120} alt="NEXTJS" />
                                 <div className={styles.overlay}>
                                     <p>
                                         Creado por Vercel, Next. js es un marco de trabajo que permite a los desarrolladores crear aplicaciones de página
@@ -86,7 +99,7 @@ function Content () {
                                 </div>
                             </div>
                             <div className={styles.image}>
-                                <Image src={SQL} height={150} width={150} alt="SQL" />
+                                <Image src={SQL} height={120} width={120} alt="SQL" />
                                 <div className={styles.overlay}>
                                     <p>
                                         SQL (Structured Query Language; en español lenguaje de consulta estructurada) es un lenguaje específico de dominio, diseñado para administrar, y recuperar información de sistemas de gestión de bases de datos relacionales.
@@ -98,21 +111,67 @@ function Content () {
                     </div>
 
                 </div></></>
-                <SeparatorLineContent /></>
-                
-                
-                <div className={styles.proyectos}>
-                    <div className={styles.titulo}>
-                        <h2>Proyectos</h2>
+
+                </>
+                <SeparatorLine/>
+
+                <div className={styles.titulo}>
+                    <h2 id="Proyectos">Proyectos personales</h2>
+                </div>
+
+                <div className={styles.columnas}>
+
+                    <div className={styles.gallery}>
+                        <h3 className={styles.subt}>Individuales</h3>
+                        <div className={styles.imageContainer}>
+                            <div className={styles.proyectos}>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={120} width={120} alt="Proyecto1" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={120} width={120} alt="Proyecto1" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
+                    <div className={styles.gallery}>
+                        <h3 className={styles.subt}>En equipo</h3>
+                        <div className={styles.imageContainer}>
+                            <div className={styles.proyectos}>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={150} width={150} alt="Proyecto1" />
+                                </div>
 
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={150} width={150} alt="Proyecto2" />
+                                </div>
 
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={150} width={150} alt="Proyecto1" />
+                                </div>
 
-                </div></>
-                    
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={150} width={150} alt="Proyecto2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </>
+            <SeparatorLine />
+            <Footer />
 
-                    
+         </main>              
 )}
 
     

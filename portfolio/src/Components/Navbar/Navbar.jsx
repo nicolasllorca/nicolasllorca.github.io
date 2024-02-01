@@ -15,8 +15,8 @@ function Navbar () {
             <div className={styles.maxWidth}>
                 <div>
                     <Link href="/">
-                        <div className={styles.navleft}>
-                            <Image src={Logo} width={50} height={60} alt="Logo"/>
+                        <div >
+                            <Image className={styles.navleft} src={Logo} width={60} height={70} alt="Logo"/>
                         </div>
                     </Link>
                 </div>   

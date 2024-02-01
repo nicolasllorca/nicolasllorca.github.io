@@ -1,5 +1,5 @@
 import styles from "./styles.module.css"
-
+// import { Link, animateScroll as scroll } from "react-scroll";
 
 import Image from "next/image";
 
@@ -33,7 +33,7 @@ function Content () {
             <SeparatorLine />
             <div className={styles.titulo}>
 
-                <h2>Conocimientos</h2>
+                <h2 id="Conocimientos">Conocimientos</h2>
             </div>
 
                 <div className={styles.columnas}>
@@ -119,11 +119,8 @@ function Content () {
                     <h2 id="Proyectos">Proyectos personales</h2>
                 </div>
 
-                <div className={styles.columnas}>
-
-                    <div className={styles.gallery}>
-                        <h3 className={styles.subt}>Individuales</h3>
-                        <div className={styles.imageContainer}>
+                <div className={styles.columnas}>               
+                        <div className={styles.containerProy}>
                             <div className={styles.proyectos}>
                                 <div className={styles.equipo}>
                                     <Image src={Proyecto1} height={120} width={120} alt="Proyecto1" />
@@ -140,36 +137,71 @@ function Content () {
                                 <div className={styles.equipo}>
                                     <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
                                 </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={120} width={120} alt="Proyecto1" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto1} height={120} width={120} alt="Proyecto1" />
+                                </div>
+
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+                                <div className={styles.equipo}>
+                                    <Image src={Proyecto2} height={120} width={120} alt="Proyecto2" />
+                                </div>
+
                             </div>
                         </div>
-                    </div>
-
-                    <div className={styles.gallery}>
-                        <h3 className={styles.subt}>En equipo</h3>
-                        <div className={styles.imageContainer}>
-                            <div className={styles.proyectos}>
-                                <div className={styles.equipo}>
-                                    <Image src={Proyecto1} height={150} width={150} alt="Proyecto1" />
-                                </div>
-
-                                <div className={styles.equipo}>
-                                    <Image src={Proyecto2} height={150} width={150} alt="Proyecto2" />
-                                </div>
-
-                                <div className={styles.equipo}>
-                                    <Image src={Proyecto1} height={150} width={150} alt="Proyecto1" />
-                                </div>
-
-                                <div className={styles.equipo}>
-                                    <Image src={Proyecto2} height={150} width={150} alt="Proyecto2" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </>
             <SeparatorLine />
-            <Footer />
+            <Footer/>
 
          </main>              
 )}

@@ -1,15 +1,9 @@
 .main {
   background: linear-gradient(23deg, #7f7676 2%, #0b0a0a 93%);
-  max-width: 1200px;
+  max-width: 1100px;
   width: 100%;
   margin: 0 auto;
   
-  height: 100vh;
-  overflow: auto;  
-  scroll-snap-type: y mandatory;  
-  scroll-snap-align: start;
-  min-height: 60vh;  
-
 
     .titulo{ 
       display: flex;

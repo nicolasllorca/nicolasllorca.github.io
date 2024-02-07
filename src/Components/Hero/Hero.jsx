@@ -24,13 +24,13 @@ function Hero () {
                     <div>
                     <ul className={styles.sections}>
                         <li>
-                            <Link href="#Conocimientos" smooth={true} duration={500}>Conocimientos</Link>
+                            <Link href="#Conocimientos">Conocimientos</Link>
                         </li>
                         <li>
-                            <Link href="#Proyectos" smooth={true} duration={500}>Proyectos personales</Link>
+                            <Link href="#Proyectos">Proyectos personales</Link>
                         </li>
                         <li>
-                            <Link href="#Contacto" smooth={true} duration={500}>Contáctame</Link>
+                            <Link href="#Contacto">Contáctame</Link>
                         </li>
                     </ul>
                     </div>

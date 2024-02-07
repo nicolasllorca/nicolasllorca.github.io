@@ -15,9 +15,7 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <>
-      
       <Content />
-      
     </>
   )
 }

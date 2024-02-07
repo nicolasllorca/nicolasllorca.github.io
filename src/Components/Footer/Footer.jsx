@@ -19,8 +19,9 @@ function Footer () {
     return (
         
         <section className={styles.foot}> 
+            
             <div className={styles.contentWidth}>
-                <div className={styles.topfooter}>
+                <div id="Contacto" className={styles.topfooter}>
                         <div>   
                               <p>
                                 <Image src={Logo} width={40} height={50} alt="Logo"/>
@@ -38,7 +39,7 @@ function Footer () {
                                 
                 </div>
 
-                <SeparatorLine />
+                
 
                 <div className={styles.centerfoot}>
                 <div>&copy; {getYear()} Marca. Nicolás Llorca. All rights reserved.</div>
